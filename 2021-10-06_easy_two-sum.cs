@@ -21,6 +21,8 @@ public class Solution {
                 return new int[] {leftI, rightI};
             }
         }
+        
+        // The requirements say there is always a solution so throw if its not true
         throw new ArgumentException("No solution found");
     }
 }
@@ -52,6 +54,8 @@ public class Solution {
                 return new int[] {sortedNums[left].Index, sortedNums[right].Index};
             }
         }
+        
+        // The requirements say there is always a solution so throw if its not true
         throw new ArgumentException("No solution found");
     }
 }
