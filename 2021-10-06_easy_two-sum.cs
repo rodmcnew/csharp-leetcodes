@@ -22,7 +22,7 @@ public class Solution {
             }
         }
         
-        // The requirements say there is always a solution so throw if its not true
+        // The requirements say there is always a solution so throw if its not true.
         throw new ArgumentException("No solution found");
     }
 }
@@ -55,7 +55,7 @@ public class Solution {
             }
         }
         
-        // The requirements say there is always a solution so throw if its not true
+        // The requirements say there is always a solution so throw if its not true.
         throw new ArgumentException("No solution found");
     }
 }
